@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.collapsing {
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.primary-color {
+  background-color: #027ac6;
+}
+
+.centralizado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizarHorizontal{
+  align-content: center;
+}
+
+.telaCentralizada{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
